@@ -1,37 +1,29 @@
-# Vehicle Management System (VMS)
+# Real-time Vehicle Monitoring System (VMS)
 
-## 📌 Introduction
+## 📌 Overview
 
-Vehicle Management System (VMS) is a full-stack web application for managing vehicles, drivers, and routes.
-The system allows administrators to monitor vehicle information, assign drivers, manage routes, and track statistics.
+Vehicle Management System (VMS) is a full-stack web application for managing vehicles, drivers, and routes in logistics operations.
+The system provides real-time monitoring, route management, and statistical dashboards.
 
-This project is built with Spring Boot (Backend) and React + Vite (Frontend).
+Built with **Spring Boot (Backend)** and **React (Frontend)**.
 
 ---
 
-## 🧰 Technologies Used
+## 🧰 Tech Stack
 
-### Backend
+**Backend**
 
-* Java 17
-* Spring Boot 3
-* Spring Data JPA
-* Spring Validation
-* Spring WebSocket
-* OAuth2 Resource Server
-* MapStruct
-* Lombok
+* Java 17, Spring Boot 3
+* Spring Data JPA, Validation, WebSocket
+* MapStruct, Lombok
 * MySQL
 * Gradle
 
-### Frontend
+**Frontend**
 
-* React 18
-* Vite
-* Redux Toolkit
-* React Router
-* Axios
-* TailwindCSS
+* React 18, Vite
+* Redux Toolkit, React Router
+* Axios, TailwindCSS
 * Material UI / Ant Design
 * WebSocket (STOMP, SockJS)
 
@@ -41,92 +33,44 @@ This project is built with Spring Boot (Backend) and React + Vite (Frontend).
 
 ```
 VMS
-├── VMS-repo-BE        # Spring Boot backend
-│
-├── VMS-repo-FE        # React frontend
-│
+├── VMS-repo-BE    # Backend (Spring Boot)
+├── VMS-repo-FE    # Frontend (React)
 └── README.md
 ```
 
 ---
 
-## ⚙️ Backend Setup
+## ⚙️ Run Locally
 
-### 1. Go to backend folder
+**Backend**
 
 ```
 cd VMS-repo-BE
-```
-
-### 2. Configure database in application.properties
-
-```
-spring.datasource.url=jdbc:mysql://localhost:3306/vms
-spring.datasource.username=root
-spring.datasource.password=your_password
-```
-
-### 3. Run backend
-
-```
 ./gradlew bootRun
 ```
 
-Backend runs at:
-
-```
-http://localhost:8080
-```
-
----
-
-## ⚙️ Frontend Setup
-
-### 1. Go to frontend folder
+**Frontend**
 
 ```
 cd VMS-repo-FE
-```
-
-### 2. Install dependencies
-
-```
 npm install
-```
-
-### 3. Run frontend
-
-```
 npm run dev
-```
-
-Frontend runs at:
-
-```
-http://localhost:5173
 ```
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-* Manage vehicles
-* Manage drivers
-* Manage routes
-* Assign driver to vehicle
-* View statistics dashboard
-* WebSocket real-time updates
+* Vehicle, driver, and route management
+* Real-time vehicle monitoring (WebSocket)
+* Dashboard and statistics
 * RESTful API integration
 
 ---
 
-## 📡 API Example
-GET /api/vehicles
-POST /api/drivers
-GET /api/routes
-
 ## 🚀 Future Improvements
 
-* Deployment to cloud
-* Update Mobile responsive UI
-* 
+* Cloud deployment
+* Authentication & authorization
+* Responsive UI improvement
+
