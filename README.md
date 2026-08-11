@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-Vehicle Management System (VMS) is a full-stack web application for managing vehicles, drivers, and routes in logistics operations.
+Transportation & Delivery Management System is a full-stack web application for managing vehicles, drivers, and routes in logistics operations.
 The system provides real-time monitoring, route management, and statistical dashboards.
 
 Built with **Spring Boot (Backend)** and **React (Frontend)**.
